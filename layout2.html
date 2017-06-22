@@ -3,17 +3,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="margin: 0px;font-family: sans-serif;">
-<div class="header" ><span class="header1">Layout 2 &nbsp&nbsp&nbsp</span><span class="header2">About   &nbsp&nbsp&nbsp   Services &nbsp&nbsp&nbspContact</span>
+<div class="header" ><div class="headin"><span class="header1">Layout 2 &nbsp&nbsp&nbsp</span><span class="header2">About   &nbsp&nbsp&nbsp   Services &nbsp&nbsp&nbspContact</span></div>
 			<div class="menu">
-                <li style="margin-left: 14%;" type="none">Layout 1</li>
+                <li style="margin-left: 14%;" type="none">Layout 2</li>
                 <label for="menu-toggle"><img src="menu.png" class="img1"></label>
                  <div style="clear: both;"></div>
                 <div class="exp">
                 <input type="checkbox" id="menu-toggle"/>
                     <ul id="menu1">
-                        <li type="none">About</li>
-                        <li type="none">Services</li>
-                        <li type="none">Contact</li>
+                        <li type="none"><span class="input">About</span></li>
+                        <li type="none"><span class="input">Services</span></li>
+                        <li type="none"><span class="input">Contacts</span></li>
                     </ul>
                      <div style="clear: both;"></div>
                 </div>
@@ -24,7 +24,7 @@
 <div class="main">
 <div class="sample"><span class="sample1">Sample Heading</span><br><br><span class="sample2">Lorem ipsum dolor sit amet, consectetur adipising elit. ipsam,eligendi, in quo sunt possimus non incidunt odit veri aliquid similique quaeat nam nobis illo aspernatur vitae fugiat numquam repellat.</span><br><br> <div  style="background-color : #0088ff;padding: 5px;color: white;border-radius: 5px;width:100px; :border-color:#0088ff "><a href="extech" style="color: white">Call to Action!</a></div></div>
 <div class="line"></div><br><br>
-<span class="latest" style="font-size: 30px">Latest Features</span><br><br>
+<span class="latest">Latest Features</span><br><br>
 <div class="row">
 <div class="grid"><img class="image" src="http://via.placeholder.com/800x500" ><br><div class="one" align="center" ><span class="size">Featured Label</span><br><br><span class="size2"> Lorem ipsum dolor sit amet, consectetur acipisicing olit</span><br><br><div class="row" ><div class="button1"><a href="#" style="color: white">Buy Now!</a></div>&nbsp<div class="button2" style="">More Info</div></div></div> </div>&nbsp&nbsp&nbsp&nbsp
 <div class="grid"><img class="image" src="http://via.placeholder.com/800x500" ><br><div class="one" align="center" ><span class="size">Featured Label</span><br><br><span class="size2">Lorem ipsum dolor sit amet, consectetur acipisicing olit </span><br><br><div class="row"><div class="button1" ><a href="#" style="color: white">Buy Now!</a></div>&nbsp<div class="button2" >More Info</div></div></div> </div>&nbsp&nbsp&nbsp&nbsp
@@ -48,7 +48,7 @@
 }
  .header1
  {
-font-size:17px; color: grey; font-family: sans-serif;margin-left: 7%;
+font-size:17px; color: grey; font-family: sans-serif;
 position: relative;
 top: 15px;
  }
@@ -57,6 +57,11 @@ top: 15px;
  		font-size:13px;color: lightgrey; font-family: sans-serif;margin-left: 10px;
 position: relative;
 top: 15px;
+ 	}
+ 	.headin
+ 	{
+ 		max-width: 1100px;
+ 		margin: auto;
  	}
 	 .main
 	 {
@@ -159,13 +164,19 @@ top: 15px;
 }
  .header1
  {
-font-size:20px; color: grey; font-family: sans-serif;margin-left: 12.5%;
+font-size:20px; color: grey; font-family: sans-serif;
  }
  .header2
  	{
  		font-size:15px;color: lightgrey; font-family: sans-serif;margin-left: 10px;
 
  	}
+ .headin
+ {
+ 	max-width: 800px;
+ 	margin: auto;
+ }	
+
 		.image
 		{
 			height: auto;
@@ -245,12 +256,17 @@ float: left;
 }
  .header1
  {
-font-size:20px; color: grey; font-family: sans-serif;margin-left: 15%;
+font-size:20px; color: grey; font-family: sans-serif;
  }
  .header2
  	{
  		font-size:15px;color: lightgrey; font-family: sans-serif;margin-left: 10px;
 
+ 	}
+ 	.headin
+ 	{
+ 		max-width: 500px;
+ 		margin: auto;
  	}
 		.image
 		{
@@ -306,6 +322,11 @@ margin-left: px;
 		margin-top: 1600px;
 		}
 
+	}
+	.latest
+	{
+		margin-left: 100px;
+		font-size: 30px;
 	}
 
 @media screen and (max-width: 600px)
@@ -420,6 +441,10 @@ background-color: #6eafe4;
 }.line2
 	{
 		margin-top: 1200px;
+	}
+	.input
+	{
+ 		margin-left: 85px;
 	}
 
 
