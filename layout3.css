@@ -844,7 +844,7 @@
 		vertical-align:bottom;
 	}
 	.menu{
-	display: block; 
+	display: inline; 
 	padding: 12px 0px 10px 0px;
 }
 .menu li{
@@ -857,6 +857,7 @@
 label .img1{
 	
 	padding-right: 15%;
+	padding-top: 10px;
 	float: right; 
 	width: 30px;
 	height:auto;
@@ -878,7 +879,6 @@ label .img1{
 #menu1 li{
 	padding-left: 0px
 	position: relative;
-  margin-bottom: 1px;
   font-size: 18px;
   width: 100%;
   background-color:#222222;
@@ -893,8 +893,12 @@ background-color: #6eafe4;
   position: relative;
   left: 70px;
 }
+.layout3
+{
+	margin-left: 14%;margin-top: 15;
 }
-@media only screen and (max-width: 350px)
+}
+@media only screen and (max-width: 380px)
 {
 	.header
 	{
@@ -905,7 +909,7 @@ background-color: #6eafe4;
 	.headin
 	{
 
-		max-width: 350px;
+		max-width: 340px;
 		margin: auto;
 	}
 	.header1
@@ -1025,13 +1029,13 @@ background-color: #6eafe4;
 	}
 	.element1
 	{
-		font-size:18px ;
+		font-size:15px ;
 		color:0088ff;
 	}
 	.element2
 	{
 		color: 0088ff;
-		font-size:18px ;
+		font-size:15px ;
 		display: inline;
 		left: 40;
 	}
@@ -1054,7 +1058,7 @@ background-color: #6eafe4;
 		vertical-align:bottom;
 	}
 	.menu{
-	display: block; 
+	display: inline; 
 	padding: 12px 0px 10px 0px;
 }
 .menu li{
@@ -1066,7 +1070,7 @@ background-color: #6eafe4;
 }
 label .img1{
 	
-	padding-right: 15%;
+	padding-right: 5%;
 	float: right; 
 	width: 30px;
 	height:auto;
@@ -1088,8 +1092,7 @@ label .img1{
 #menu1 li{
 	padding-left: 0px
 	position: relative;
-  margin-bottom: 1px;
-  font-size: 18px;
+    font-size: 18px;
   width: 100%;
   background-color:#222222;
   color: white;
@@ -1101,6 +1104,10 @@ background-color: #6eafe4;
 .in
 {
   position: relative;
-  left: 70px;
+  left: 20px;
 }
+ .layout3
+ {
+margin-left: 5%;margin-top: 15;
+	}
 }
